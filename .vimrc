@@ -5,6 +5,12 @@ set nu
 set modeline
 set expandtab
 set softtabstop=4
+set ignorecase
+map <C-J> <C-W>j<C-W>
+map <C-K> <C-W>k<C-W>
+map <C-H> <C-W>h<C-W>
+map <C-L> <C-W>l<C-W>
+vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
 set nocompatible              " be ViMproved, required
 filetype off                  " required
