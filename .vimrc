@@ -26,6 +26,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'easymotion/vim-easymotion'
+Plugin 'vim-multiple-cursors'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
