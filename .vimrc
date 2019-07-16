@@ -26,6 +26,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'easymotion/vim-easymotion'
+Plugin 'morhetz/gruvbox'
 "Plugin 'vim-multiple-cursors'
 
 " The following are examples of different formats supported.
@@ -62,5 +63,5 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 map <Leader> <Plug>(easymotion-prefix)
-
-
+colorscheme gruvbox
+set background=dark
