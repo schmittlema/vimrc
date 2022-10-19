@@ -1,4 +1,6 @@
 :inoremap kj <ESC>
+:nnoremap = <c-w><Right>
+:nnoremap - <c-w><Left>
 set tabstop=4
 set shiftwidth=4
 set nu
