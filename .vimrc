@@ -29,7 +29,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'morhetz/gruvbox'
-"Plugin 'vim-multiple-cursors'
+Plugin 'tpope/vim-commentary'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
