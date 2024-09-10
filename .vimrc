@@ -14,6 +14,12 @@ map <C-H> <C-W>h<C-W>
 map <C-L> <C-W>l<C-W>
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
+" Autocomplete remaps
+inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
+inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
+inoremap <expr> <cr> ((pumvisible())?("\<C-y>"):("\<cr>"))
+inoremap <expr> <Esc> pumvisible() ? "\<C-e>" : "\<Esc>"
+
 set nocompatible              " be ViMproved, required
 filetype off                  " required
 
